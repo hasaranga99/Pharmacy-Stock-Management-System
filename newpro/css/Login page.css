@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#banner {
+    background: url(images/login2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   
+  #header {
+    background-color: #0047AB; /* Pink header background color */
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+  }
+  
+  .header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header-container h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+
+  body {
+    background-color: #c3e1fb; /* Light pink background color */
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+  
+  }
+
+.container{
+					
+			display: flex;
+			flex-direction: column;
+			width: 400px;
+			height: 600;
+			padding: 15px;
+			border:3px solid #181075; /* Bright pink border */;
+			color: #333244;
+			border-radius: 10px;
+			background-color:transparent; /* Transparent background */
+			box-shadow: 0px 0px 10px rgba(210, 222, 251, 0.671); /* Light shadow */
+			margin-top: 20px;
+			position: relative; /* Add relative positioning */
+			
+    max-width: 80%; 
+			}
+		
+		/* Add the pseudo-element for the color overlay */
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-color: rgba(249, 201, 240, 0.4); /* Adjust the color and opacity */
+    border-radius: 10px;
+    z-index: -1; /* Place the overlay behind the content */
+}
+	 
+input {
+	margin: 5px 0;
+	height: 35px;
+	width: 100%;
+	padding: 7px;
+  }
+		.dashboard {
+			display: grid;
+			gap: 20px;
+			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+			max-width: 1000px;
+			padding: 20px;
+			background-color: rgba(210, 222, 251, 0.671); /* Use your desired background color */
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+			border-radius: 5px;
+		}
+
+		button{
+			height: 35px;
+			width: fit-content; /* Make the button width fit its content */
+			color: #181075; /* Bright pink button color */
+			background-color:transparent;
+			border: 2px solid #181075;
+			border-radius: 5px;
+			font-family: 'Cooper Black';
+			cursor: pointer;
+			transition: background-color 0.3s, color 0.3s;
+			display: block;
+			margin: 5px auto;
+			font-size: 16px; /* Adjust the button text size */
+    padding: 10px 20px; /* Increase the button padding */
+    height: 45px; /* Adjust the button height */
+    width: auto;
+			
+		}
+
+		button:hover{
+			background-color: #181075;
+    		color: #fff; /* White text color on hover */
+			}
+
+
+.options {
+    display: flex;	
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; /* Add margin to move the options down */
+    color: #181075; /* Bright pink text color */
+}
+

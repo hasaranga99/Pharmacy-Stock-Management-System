@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+	text-align: center;
+}
+
+#header {
+  background-color: #0047AB; /* blue header background color */
+  color: white;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.header-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-container h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+#banner {
+    background: url(images/login2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    border: 3px solid #181075;
+    background-color: rgba(210, 222, 251, 0.671); /* Transparent background */
+    border-radius: 5px;
+    margin: auto;
+    color: #333244;
+  }
+
+.banner-heading {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+	font-family: 'Arial', sans-serif;;
+	color: #12108e; /* Pink text color */
+}
+
+.banner-subheading {
+    font-size: 60px;
+    margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	color: #0047AB; /* Pink text color */}
+	
+
+.banner-form {
+    margin-top: 30px;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color:transparent;
+    color: #12108e;
+	border: 2px solid #12108e;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Cooper Black';
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;	
+}
+
+.login-button:hover {
+    background-color: #12108e;
+    color: #fff; /* White text color on hover */
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}

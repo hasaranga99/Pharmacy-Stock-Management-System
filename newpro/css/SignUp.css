@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#banner {
+    background: url(images/login2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   
+  #header {
+    background-color: #0047AB; /* Pink header background color */
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+  }
+  
+  .header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header-container h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+	
+		.container{
+			display: flex;
+			flex-direction: column;
+			max-width: 80%;
+			width: 300px;
+			padding: 15px;
+			border:3px solid #181075; /* Bright pink border */;
+			background-color:transparent; /* Transparent background */
+			color: #333244;
+			border-radius: 5px;
+			
+			}
+
+
+
+
+       
+		input{
+			margin: 5px 0px;
+			height: 35px;
+			padding: 7px;
+			}
+			button{
+				height: 35px;
+				width: fit-content; /* Make the button width fit its content */
+				color: #181075; /* Bright pink button color */
+				background-color:transparent;
+				border: 2px solid #181075;
+				border-radius: 5px;
+				font-family: 'Cooper Black';
+				cursor: pointer;
+				transition: background-color 0.3s, color 0.3s;
+				display: block;
+				margin: 5px auto;
+				font-size: 16px; /* Adjust the button text size */
+		padding: 10px 20px; /* Increase the button padding */
+		height: 45px; /* Adjust the button height */
+		width: auto;
+				
+			}
+	
+			button:hover{
+				background-color: #181075;
+				color: #fff; /* White text color on hover */
+				}

@@ -1,0 +1,196 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#banner {
+    background: url(images/login2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #header {
+    background-color: #0047AB; /* blue header background color */
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-container h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+  body {
+    background-color: #c3e1fb; /* Light blue background color */
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+   
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between; /* Create two-column layout */
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.form-column {
+    flex: 2; /* Take equal space in the flex container */
+    margin-right: 20px; /* Add some spacing between columns */
+    margin-left: 20px;
+  }
+
+.form-row label {
+    font-weight: bold;
+    color: #12108e;
+}
+
+.form-row input,
+.form-row select {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #181075;
+    border-radius: 5px;
+}
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px; 
+    padding: 10px;
+    border: 3px solid #181075;
+    background-color: rgba(210, 222, 251, 0.671); /* Transparent background */
+    border-radius: 5px;
+    margin: auto;
+    color: #181075;
+    
+  }
+  
+  .container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  
+  }
+  
+  input {
+    margin: 5px 0;
+    height: 35px;
+    width: 100%;
+    padding: 7px;
+  }
+  
+  select {
+    margin: 5px 0;
+    height: 35px;
+    width: 100%;
+    padding: 7px;
+  }
+  
+  button {
+    height: 50px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    background-color: transparent;
+    border: 3px solid #181075;
+    border-radius: 5px;
+    color: #181075;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: 'Cooper Black';
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #181075;
+    color: #fff; /* White text color on hover */
+  }
+
+  .plus-button{
+    width: 50px; /* Adjust the width as needed */
+    margin: 0 auto;
+    margin-left: 10px;  
+    padding: 5px;
+    border: 2px solid #181075; /* Change border color to match your theme */
+    border-radius: 5px; /* Add rounded corners */
+    
+  }
+  
+  .delete-button{
+    background-color: #181075;
+    color: #fff; 
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add some margin for spacing */
+}
+
+.button-container button {
+    width: 100%; /* Make the button take the full width of the container */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: none;
+  border: none;
+  margin: auto;
+}
+
+/* Add styles for the scrollable box */
+.scrollable-box {
+  max-height: 255px; /* Adjust the maximum height as needed */
+  max-width: 100%;
+  overflow-y: auto; /* Add vertical scrollbar when content overflows */
+}
+
+.table-container {
+  display: none;
+}
+
+thead {
+  background-color: #0047AB;
+  color: white;
+  border: 1px solid #0047AB;
+  height: 30px;
+  padding: 50px;
+ 
+}
+
+#order-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+#order-details-table td {
+  padding: 8px;
+  text-align: center;
+}
+
